@@ -1,0 +1,3 @@
+project(pr8)
+
+add_executable(func.cpp)
