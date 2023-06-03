@@ -8,13 +8,3 @@ long long factorial(int x){
         res *= x--;
     return res;
 }
-
-int main(){
-
-    int x = 0;
-    std::cout<<"Factorial calculation\nEnter number: ";
-    std::cin>>x;
-    std::cout<<"The factorial of "<<x<<" is "<<factorial(x)<<std::endl;
-    
-    return 0;
-}
